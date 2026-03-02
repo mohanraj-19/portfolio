@@ -1,1 +1,678 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohanraj | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Mohanraj – Full-Stack Developer specializing in modern web technologies.">
+  <meta name="keywords" content="portfolio, developer, full-stack, web development, software engineer">
+  <meta name="author" content="Mohanraj">
+  <meta property="og:title" content="Mohanraj | Portfolio">
+  <meta property="og:description" content="Full-Stack Developer specializing in modern web technologies.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
 
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <span class="logo-text">&lt;M/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu" role="menubar">
+        <li role="none"><a href="#hero" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+        <li role="none"><a href="#certifications" class="nav-link" role="menuitem">Certifications</a></li>
+        <li role="none"><a href="#testimonials" class="nav-link" role="menuitem">Testimonials</a></li>
+        <li role="none"><a href="#blog" class="nav-link" role="menuitem">Blog</a></li>
+        <li role="none"><a href="#resume" class="nav-link" role="menuitem">Resume</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero" aria-label="Introduction">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-greeting animate-fade-up">Hello, I'm</p>
+        <h1 class="hero-name animate-fade-up delay-1">Mohanraj</h1>
+        <p class="hero-title animate-fade-up delay-2">Full-Stack Developer</p>
+        <p class="hero-tagline animate-fade-up delay-3">Building elegant, performant, and user-centric digital experiences.</p>
+        <div class="hero-cta animate-fade-up delay-4">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-social animate-fade-up delay-5">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="section about" id="about" aria-label="About me">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image glass-card">
+            <div class="profile-img-wrapper">
+              <img src="https://ui-avatars.com/api/?name=Mohanraj&size=300&background=6c63ff&color=fff&bold=true&font-size=0.4" alt="Portrait of Mohanraj" width="300" height="300" loading="lazy">
+            </div>
+          </div>
+          <div class="about-content glass-card">
+            <h3>Who I Am</h3>
+            <p>I'm a passionate Full-Stack Developer with a strong foundation in building scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.</p>
+            <p>With expertise spanning front-end and back-end technologies, I deliver end-to-end solutions that make a real impact. When I'm not coding, you'll find me exploring new technologies, contributing to open-source, or writing about development best practices.</p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number" data-count="3">0</span><span>+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-count="20">0</span><span>+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-count="10">0</span><span>+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="section skills" id="skills" aria-label="Skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Frontend</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>HTML / CSS</span><span>95%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="95" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="HTML CSS proficiency 95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>JavaScript</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>React</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="React proficiency 85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>TypeScript</span><span>80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="TypeScript proficiency 80%"></div></div>
+              </div>
+            </div>
+          </div>
+          <!-- Backend -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+            <h3>Backend</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>Node.js</span><span>88%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="88" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Node.js proficiency 88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Python</span><span>82%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="82" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency 82%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Express / REST APIs</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Express REST APIs proficiency 85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>MongoDB / SQL</span><span>80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="MongoDB SQL proficiency 80%"></div></div>
+              </div>
+            </div>
+          </div>
+          <!-- Tools -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools &amp; DevOps</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>Git / GitHub</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Git GitHub proficiency 90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Docker</span><span>75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Docker proficiency 75%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>CI / CD</span><span>78%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="78" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="CI CD proficiency 78%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>AWS / Cloud</span><span>70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" data-width="70" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="AWS Cloud proficiency 70%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="section projects" id="projects" aria-label="Projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-filters" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="api">API</button>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass-card" data-category="fullstack">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/6c63ff/ffffff?text=E-Commerce+App" alt="E-Commerce App screenshot" width="600" height="400" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live demo of E-Commerce App"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub repository of E-Commerce App"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p>A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.</p>
+              <div class="project-tags">
+                <span>React</span><span>Node.js</span><span>MongoDB</span><span>Stripe</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-category="frontend">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/00d2ff/ffffff?text=Weather+Dashboard" alt="Weather Dashboard screenshot" width="600" height="400" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live demo of Weather Dashboard"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub repository of Weather Dashboard"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>Real-time weather application with interactive maps, forecasts, and location-based data visualization.</p>
+              <div class="project-tags">
+                <span>JavaScript</span><span>API</span><span>CSS3</span><span>Charts</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-category="api">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/ff6b6b/ffffff?text=Task+Manager+API" alt="Task Manager API screenshot" width="600" height="400" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live demo of Task Manager API"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub repository of Task Manager API"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Task Manager API</h3>
+              <p>RESTful API with JWT authentication, rate limiting, and comprehensive documentation using Swagger.</p>
+              <div class="project-tags">
+                <span>Node.js</span><span>Express</span><span>JWT</span><span>Swagger</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-category="fullstack">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/feca57/333333?text=Chat+Application" alt="Chat Application screenshot" width="600" height="400" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live demo of Chat Application"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub repository of Chat Application"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Real-Time Chat App</h3>
+              <p>WebSocket-powered chat with private messaging, group channels, and media sharing capabilities.</p>
+              <div class="project-tags">
+                <span>React</span><span>Socket.io</span><span>Express</span><span>Redis</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-category="frontend">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/a29bfe/ffffff?text=Portfolio+Site" alt="Portfolio Website screenshot" width="600" height="400" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live demo of Portfolio Website"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub repository of Portfolio Website"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>Modern glassmorphism portfolio with animations, dark mode, and fully responsive design.</p>
+              <div class="project-tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>UI/UX</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-category="api">
+            <div class="project-image">
+              <img src="https://placehold.co/600x400/55efc4/333333?text=Blog+CMS" alt="Blog CMS screenshot" width="600" height="400" loading="lazy">
+              <div class="project-overlay">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Live demo of Blog CMS"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub repository of Blog CMS"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Blog CMS</h3>
+              <p>Content management system with markdown support, SEO tools, and an analytics dashboard.</p>
+              <div class="project-tags">
+                <span>Python</span><span>Django</span><span>PostgreSQL</span><span>REST</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE & EDUCATION ========== -->
+    <section class="section experience" id="experience" aria-label="Experience and Education">
+      <div class="container">
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <div class="timeline-grid">
+          <!-- Experience -->
+          <div class="timeline-column">
+            <h3 class="timeline-heading"><i class="fas fa-briefcase"></i> Experience</h3>
+            <div class="timeline">
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 – Present</div>
+                <h4>Senior Full-Stack Developer</h4>
+                <p class="timeline-company">Tech Solutions Inc.</p>
+                <p>Led development of microservices architecture, improved API performance by 40%, and mentored junior developers.</p>
+              </div>
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021 – 2023</div>
+                <h4>Full-Stack Developer</h4>
+                <p class="timeline-company">Digital Agency Co.</p>
+                <p>Built and deployed 15+ client projects using React, Node.js, and cloud services. Implemented CI/CD pipelines.</p>
+              </div>
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020 – 2021</div>
+                <h4>Junior Web Developer</h4>
+                <p class="timeline-company">StartUp Hub</p>
+                <p>Developed responsive web applications and contributed to UI/UX improvements that increased user engagement by 25%.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Education -->
+          <div class="timeline-column">
+            <h3 class="timeline-heading"><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="timeline">
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017 – 2021</div>
+                <h4>B.Tech in Computer Science</h4>
+                <p class="timeline-company">University of Technology</p>
+                <p>Graduated with honors. Specialized in software engineering and data structures. Active member of the coding club.</p>
+              </div>
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2015 – 2017</div>
+                <h4>Higher Secondary Education</h4>
+                <p class="timeline-company">Central Academy</p>
+                <p>Completed with distinction in Mathematics and Computer Science. Won inter-school coding competition.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS ========== -->
+    <section class="section certifications" id="certifications" aria-label="Certifications and Achievements">
+      <div class="container">
+        <h2 class="section-title">Certifications &amp; Achievements</h2>
+        <div class="certs-grid">
+          <div class="cert-card glass-card">
+            <div class="cert-icon"><i class="fab fa-aws"></i></div>
+            <h3>AWS Certified Developer</h3>
+            <p>Amazon Web Services</p>
+            <span class="cert-date">2023</span>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-icon"><i class="fab fa-google"></i></div>
+            <h3>Google Cloud Associate</h3>
+            <p>Google Cloud Platform</p>
+            <span class="cert-date">2023</span>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-icon"><i class="fab fa-react"></i></div>
+            <h3>Meta Front-End Developer</h3>
+            <p>Meta (Coursera)</p>
+            <span class="cert-date">2022</span>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+            <h3>Hackathon Winner</h3>
+            <p>TechFest 2022 – 1st Place</p>
+            <span class="cert-date">2022</span>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-icon"><i class="fas fa-medal"></i></div>
+            <h3>100 Days of Code</h3>
+            <p>Completed Challenge</p>
+            <span class="cert-date">2021</span>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-icon"><i class="fab fa-node-js"></i></div>
+            <h3>Node.js Certification</h3>
+            <p>OpenJS Foundation</p>
+            <span class="cert-date">2021</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="section testimonials" id="testimonials" aria-label="Testimonials">
+      <div class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials-slider" role="region" aria-label="Testimonial carousel">
+          <div class="testimonial-track" id="testimonialTrack">
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Mohanraj delivered an outstanding e-commerce platform for us. His attention to detail and code quality exceeded our expectations. Highly recommend!"</p>
+              <div class="testimonial-author">
+                <img src="https://ui-avatars.com/api/?name=Sarah+Chen&background=6c63ff&color=fff&size=60" alt="Sarah Chen" width="60" height="60" loading="lazy">
+                <div>
+                  <strong>Sarah Chen</strong>
+                  <span>CEO, TechRetail</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Working with Mohanraj was a fantastic experience. He understood our requirements perfectly and delivered the project ahead of schedule."</p>
+              <div class="testimonial-author">
+                <img src="https://ui-avatars.com/api/?name=James+Miller&background=00d2ff&color=fff&size=60" alt="James Miller" width="60" height="60" loading="lazy">
+                <div>
+                  <strong>James Miller</strong>
+                  <span>Product Manager, InnovateCo</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card glass-card">
+              <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">"Exceptional developer who combines technical expertise with creative problem-solving. Our application's performance improved dramatically."</p>
+              <div class="testimonial-author">
+                <img src="https://ui-avatars.com/api/?name=Priya+Sharma&background=ff6b6b&color=fff&size=60" alt="Priya Sharma" width="60" height="60" loading="lazy">
+                <div>
+                  <strong>Priya Sharma</strong>
+                  <span>CTO, DataFlow Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-nav">
+            <button class="testimonial-btn" id="prevTestimonial" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots" id="testimonialDots"></div>
+            <button class="testimonial-btn" id="nextTestimonial" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BLOG PREVIEW ========== -->
+    <section class="section blog" id="blog" aria-label="Blog">
+      <div class="container">
+        <h2 class="section-title">Latest Blog Posts</h2>
+        <div class="blog-grid">
+          <article class="blog-card glass-card">
+            <div class="blog-image">
+              <img src="https://placehold.co/600x300/6c63ff/ffffff?text=React+Best+Practices" alt="React Best Practices blog post" width="600" height="300" loading="lazy">
+              <span class="blog-category">React</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-calendar-alt"></i> Jan 15, 2024</span>
+                <span><i class="far fa-clock"></i> 5 min read</span>
+              </div>
+              <h3>React Best Practices for 2024</h3>
+              <p>Explore the latest patterns and techniques for building scalable React applications...</p>
+              <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="blog-card glass-card">
+            <div class="blog-image">
+              <img src="https://placehold.co/600x300/00d2ff/ffffff?text=Node.js+Performance" alt="Node.js Performance blog post" width="600" height="300" loading="lazy">
+              <span class="blog-category">Backend</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-calendar-alt"></i> Dec 28, 2023</span>
+                <span><i class="far fa-clock"></i> 8 min read</span>
+              </div>
+              <h3>Optimizing Node.js Performance</h3>
+              <p>Tips and strategies for building high-performance Node.js applications at scale...</p>
+              <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="blog-card glass-card">
+            <div class="blog-image">
+              <img src="https://placehold.co/600x300/ff6b6b/ffffff?text=CSS+Glassmorphism" alt="CSS Glassmorphism blog post" width="600" height="300" loading="lazy">
+              <span class="blog-category">CSS</span>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-calendar-alt"></i> Nov 10, 2023</span>
+                <span><i class="far fa-clock"></i> 4 min read</span>
+              </div>
+              <h3>Mastering CSS Glassmorphism</h3>
+              <p>A deep dive into creating stunning glassmorphism effects with pure CSS...</p>
+              <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESUME SECTION ========== -->
+    <section class="section resume" id="resume" aria-label="Resume">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content glass-card">
+          <div class="resume-icon"><i class="fas fa-file-pdf"></i></div>
+          <h3>View or Download My Resume</h3>
+          <p>Get a comprehensive overview of my experience, skills, and qualifications.</p>
+          <div class="resume-actions">
+            <button class="btn btn-primary" id="viewResumeBtn" aria-label="View resume in modal">
+              <i class="fas fa-eye"></i> View Resume
+            </button>
+            <a href="assets/resume.pdf" download="Mohanraj_Resume.pdf" class="btn btn-outline" aria-label="Download resume as PDF">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Modal -->
+    <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-label="Resume preview" hidden>
+      <div class="modal-content glass-card">
+        <button class="modal-close" id="closeResumeModal" aria-label="Close resume preview">&times;</button>
+        <div class="modal-body">
+          <div class="resume-preview">
+            <div class="resume-preview-header">
+              <h2>Mohanraj</h2>
+              <p>Full-Stack Developer</p>
+              <p>Email: mohanraj@example.com | Phone: +91 XXXXXXXXXX</p>
+            </div>
+            <hr>
+            <div class="resume-preview-section">
+              <h3>Professional Summary</h3>
+              <p>Passionate Full-Stack Developer with 3+ years of experience in building scalable web applications using modern technologies. Proven track record of delivering high-quality solutions and collaborating effectively with cross-functional teams.</p>
+            </div>
+            <div class="resume-preview-section">
+              <h3>Technical Skills</h3>
+              <p><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), React, TypeScript, Tailwind CSS</p>
+              <p><strong>Backend:</strong> Node.js, Express, Python, Django, REST APIs, GraphQL</p>
+              <p><strong>Database:</strong> MongoDB, PostgreSQL, MySQL, Redis</p>
+              <p><strong>DevOps:</strong> Git, Docker, AWS, CI/CD, Linux</p>
+            </div>
+            <div class="resume-preview-section">
+              <h3>Experience</h3>
+              <p><strong>Senior Full-Stack Developer</strong> — Tech Solutions Inc. (2023–Present)</p>
+              <ul><li>Led microservices architecture development</li><li>Improved API performance by 40%</li></ul>
+              <p><strong>Full-Stack Developer</strong> — Digital Agency Co. (2021–2023)</p>
+              <ul><li>Built and deployed 15+ client projects</li><li>Implemented CI/CD pipelines</li></ul>
+            </div>
+            <div class="resume-preview-section">
+              <h3>Education</h3>
+              <p><strong>B.Tech in Computer Science</strong> — University of Technology (2017–2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="section contact" id="contact" aria-label="Contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info glass-card">
+            <h3>Let's Talk</h3>
+            <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat about technology!</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:mohanraj@example.com">mohanraj@example.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <strong>Phone</strong>
+                  <span>+91 XXXXXXXXXX</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>India</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <form class="contact-form glass-card" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name">
+              <span class="error-msg" id="nameError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email">
+              <span class="error-msg" id="emailError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject <span class="required">*</span></label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+              <span class="error-msg" id="subjectError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              <span class="error-msg" id="messageError" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-text">&lt;M/&gt;</span>
+          <p>Building digital experiences that matter.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#resume">Resume</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Mohanraj. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -41,8 +41,8 @@
 
   if (themeToggle) {
     themeToggle.addEventListener('click', function () {
-      var current = document.documentElement.getAttribute('data-theme');
-      applyTheme(current === 'dark' ? 'light' : 'dark');
+      var currentTheme = document.documentElement.getAttribute('data-theme');
+      applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
     });
   }
 
@@ -53,8 +53,8 @@
     navToggle.addEventListener('click', function () {
       navToggle.classList.toggle('active');
       navMenu.classList.toggle('open');
-      var expanded = navToggle.getAttribute('aria-expanded') === 'true';
-      navToggle.setAttribute('aria-expanded', String(!expanded));
+      var isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!isExpanded));
     });
 
     navLinks.forEach(function (link) {
